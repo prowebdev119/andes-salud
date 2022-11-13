@@ -87,7 +87,6 @@ const Header = () => {
 
 				{/* BURGER MENU */}
 				<div className="flex xl:hidden items-center justify-center bg-inherit ml-5 !max-w-full relative ">
-					<BurgerMenu setEmergencyOpen={setEmergencyOpen} setLoginOpen={setLoginOpen} />
 				</div>
 			</div>
 		</>
