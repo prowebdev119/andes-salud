@@ -63,6 +63,12 @@ const Header = () => {
 						</div>
 						{/* NAVBAR */}
 						<nav className="mr-[50px] hidden xl:flex items-center space-x-8 text-[#191B1E] font-semibold text-lg">
+							<a
+								href="#"
+								className="bg-[#0F4F87] rounded-lg text-white py-1 px-7 border-2 border-[#0F4F87] transition-all duration-300 hover:bg-white hover:text-[#0F4F87]"
+							>
+								Cotizá online
+							</a>
 							<a href="#second-section" className="nav-link">
 								Gestiones
 							</a>
