@@ -119,16 +119,12 @@ const FirstSection = () => {
 						}}
 					>
 						<SwiperSlide>
-							<SliderItem contentId={0} />
 						</SwiperSlide>
 						<SwiperSlide>
-							<SliderItem setOpen={setPlansOpen} contentId={1} />
 						</SwiperSlide>
 						<SwiperSlide>
-							<SliderItem contentId={2} />
 						</SwiperSlide>
 						<SwiperSlide>
-							<SliderItem contentId={3} />
 						</SwiperSlide>
 					</Swiper>
 				</div>
