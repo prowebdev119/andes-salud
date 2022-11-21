@@ -77,6 +77,7 @@ const FirstSection = () => {
 						{/* SOCIALS */}
 						<div className="bg-[#191B1E] bg-opacity-50 rounded-l-lg py-5 px-4 flex flex-col space-y-4">
 							<div className="cursor-pointer">
+								<img src="/svg/whatsapp.svg" alt="" />
 							</div>
 							<div className="cursor-pointer">
 								<img src="/svg/facebook.svg" alt="" />
