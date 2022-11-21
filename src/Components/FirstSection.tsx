@@ -81,6 +81,7 @@ const FirstSection = () => {
 							<div className="cursor-pointer">
 							</div>
 							<div className="cursor-pointer">
+								<img src="/svg/instagram.svg" alt="" />
 							</div>
 							<div className="cursor-pointer">
 								<img src="/svg/youtube.svg" alt="" />
