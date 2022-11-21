@@ -1,9 +1,6 @@
 import React from 'react';
 
 const FourthItem: React.FC<{
-	backgroundImage: string;
-	contentImage: string;
-	contentTitle: string;
 }> = ({ backgroundImage, contentImage, contentTitle }) => {
 	return (
 		<div className="relative shadow-lg  h-[210px]">
