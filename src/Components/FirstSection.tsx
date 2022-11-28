@@ -25,6 +25,7 @@ const FirstSection = () => {
 				}, 100);
 				if (imageNumber >= IMG_URLS.length - 1) {
 				} else {
+					setImageNumber(imageNumber => imageNumber + 1);
 				}
 			}, IMG_DELAY);
 			setTimeout(() => {
