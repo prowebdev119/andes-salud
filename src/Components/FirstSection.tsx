@@ -21,6 +21,7 @@ const FirstSection = () => {
 		setTimeout(() => {
 			setTimeout(() => {
 				setTimeout(() => {
+					setImageClass('fade-in');
 				}, 100);
 				if (imageNumber >= IMG_URLS.length - 1) {
 					setImageNumber(0);
