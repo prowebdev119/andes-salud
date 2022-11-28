@@ -24,9 +24,7 @@ const FirstSection = () => {
 					setImageClass('fade-in');
 				}, 100);
 				if (imageNumber >= IMG_URLS.length - 1) {
-					setImageNumber(0);
 				} else {
-					setImageNumber(imageNumber => imageNumber + 1);
 				}
 			}, IMG_DELAY);
 			setTimeout(() => {
