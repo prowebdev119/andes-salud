@@ -17,6 +17,7 @@ const FourthItem: React.FC<{
 				<div>
 					<img src={`/svg/${contentImage}.svg`} alt="" />
 				</div>
+				{/* TITLE */}
 				<div>{contentTitle}</div>
 			</div>
 		</div>
