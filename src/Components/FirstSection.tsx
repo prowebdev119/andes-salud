@@ -14,7 +14,6 @@ const FirstSection = () => {
 	const [plansOpen, setPlansOpen] = useState(false);
 
 	useEffect(() => {
-		setWarningVisibility(true);
 	}, []);
 
 	useEffect(() => {
