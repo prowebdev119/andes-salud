@@ -5,9 +5,6 @@ import Login from './Modals/Login';
 import Register from './Modals/Register';
 
 const Header = () => {
-	const [emergencyOpen, setEmergencyOpen] = useState(false);
-	const [loginOpen, setLoginOpen] = useState(false);
-	const [registerOpen, setRegisterOpen] = useState(false);
 
 	return (
 		<>
