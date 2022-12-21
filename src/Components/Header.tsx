@@ -5,6 +5,7 @@ import Login from './Modals/Login';
 import Register from './Modals/Register';
 
 const Header = () => {
+	const [registerOpen, setRegisterOpen] = useState(false);
 
 	return (
 		<>
