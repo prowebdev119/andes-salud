@@ -13,11 +13,9 @@ const FourthItem: React.FC<{
 				alt=""
 			/>
 			<div className="w-full h-full flex flex-col items-center justify-center space-y-6 text-white font-semibold text-xl absolute z-10 top-0">
-				{/* ICON */}
 				<div>
 					<img src={`/svg/${contentImage}.svg`} alt="" />
 				</div>
-				{/* TITLE */}
 				<div>{contentTitle}</div>
 			</div>
 		</div>
