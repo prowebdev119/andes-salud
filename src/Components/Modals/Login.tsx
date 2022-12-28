@@ -21,9 +21,6 @@ const Login: React.FC<{ setOpen: Function; setRegisterOpen: Function }> = ({
 					<div className="login-form">
 						<label htmlFor="username">Contraseña</label>
 						<div className="relative">
-							<input
-								type={passwordVisible ? 'text' : 'password'}
-								id="username"
 								className="!pr-[45px]"
 								placeholder="Ingresá tu contraseña"
 							/>
